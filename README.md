@@ -126,11 +126,12 @@ with K means plus plus initialization have better cluster definition.
 Thus the final selection of model also depends on other factors but K means ++ initialization
 with PCA can serve as a better recipe.
 
-![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/72e82cfb-c68b-432d-83ac-3e0cbf19bb7f)
-![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/3b5ce4ac-caf2-4b2d-a466-fd6fa7bc6cee)
-![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/702f3856-dfc8-4d95-bbe5-5e8d0fd9b78c)
-![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/714b2f45-e960-48ee-b622-f66a94f3d6e4)
-![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/adf8b180-f52b-43a6-89bb-3598834bc5a3)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/6165a3b2-27c7-4ed8-86ba-84498ff783d2)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/a66794eb-9315-4a9c-80e8-c0a89822ea4d)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/c8a5350f-c2df-4eaa-929c-cff21d1a06c1)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/c3e9a211-9382-4efc-a254-baa75c7fc44b)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/81b39341-c349-426a-b069-d857fa9aea7f)
+
 
 
 
