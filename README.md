@@ -94,25 +94,31 @@ algorithm.
 ## K++ and GMM++
 From graphs 4,5,6 we can see K means ++ performs better as it has lower within sum of square
 errors and higher Calinski Harabaz score.
+
 The probable reason why K means with better initialization works well could be:
 When the clusters in the data are well-separated and clearly distinct, it is easier for K-means to
 accurately assign each data point to its nearest centroid, resulting in a lower WSS. In contrast,
+
 GMM may have more difficulty accurately assigning data points to clusters if the clusters are
 overlapping or have complex structures, which can lead to a higher WSS.
+
 Well defined cluster separation is visible from Calinski Harabaz score and davies bouldin score
 Calinski-Harabasz Score (CHS) is a clustering evaluation metric used to measure the quality of
 clustering solutions. It calculates the ratio of the between-cluster variance to the within-cluster
 variance. The CHS is higher when the clusters are well separated and the within-cluster variance
 is small, and lower when the clusters are overlapping and the within-cluster variance is large.
+
 Davies-Bouldin Score (DBS) is a clustering evaluation metric used to measure the similarity
 between clusters. It calculates the average similarity between each cluster and its most similar
 cluster, based on the ratio of within-cluster and between-cluster distances. A lower DBS indicates
 better clustering solutions with higher intra-cluster similarity and lower inter-cluster similarity.
 Thus by the definition we can see that since davies bouldin score of K means is less than that of
 GMM it is showing better results.
+
 However choice for clustering depends on other factors as well which we need to consider
 Comparison of All four methods
-From graphs 7,8,9 we can see that K means ++ is a better method as compared to others.
+
+
 However Gaussian Mixture model when initialized with K means plus plus also gives better Davies
 Bouldin Score as well as Calinski Harabaz Score as compared to K means ++
 Thus we can conclude even though K means ++ reduces the within sum of square errors, GMM
@@ -120,7 +126,15 @@ with K means plus plus initialization have better cluster definition.
 Thus the final selection of model also depends on other factors but K means ++ initialization
 with PCA can serve as a better recipe.
 
-![27](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/ea714b48-2d4e-4944-aad5-96078ae9846c)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/72e82cfb-c68b-432d-83ac-3e0cbf19bb7f)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/3b5ce4ac-caf2-4b2d-a466-fd6fa7bc6cee)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/702f3856-dfc8-4d95-bbe5-5e8d0fd9b78c)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/714b2f45-e960-48ee-b622-f66a94f3d6e4)
+![image](https://github.com/jashshah-dev/Gaussian-Mixture-Models-Implementation-from-Scratch/assets/132673402/adf8b180-f52b-43a6-89bb-3598834bc5a3)
+
+
+
+
 
 
 
