@@ -57,7 +57,7 @@ The dataset used in this project is the 130 Hospitals Diabetic Dataset from the 
 
 The Python code in this repository is organized as follows:
 
-- `Gaussian_Mixture_Models.py`: Contains the implementation of the Gaussian Mixture Model from scratch.Also has a detailed overview with comments about comparison of different models
+- `Gaussian_Mixture_Models.py`: Contains the implementation of the Gaussian Mixture Model from scratch.Also has a detailed overview with comments about comparison of different models.
 
 ## Comparison Metrics Used
 
